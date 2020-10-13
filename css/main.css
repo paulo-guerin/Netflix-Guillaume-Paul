@@ -1,0 +1,64 @@
+
+.logo{
+    content: url("../img/Logo_Netflix.png");
+    width: 7%;
+}
+.nav-left{
+    padding-left: 4%;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    z-index:1;
+    position: fixed;
+}
+.nav-left{
+    padding-right: 4%;
+}
+body{
+    max-height: 100%;
+    max-width:100%;
+    margin:0;
+    padding:0;
+ /*   background-image: url("https://occ-0-2249-358.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWlCPl0gdj29-1u5oCsylWA68U9XUL_GT2UTqSBLbF_--tluhoiL-x-STMaXX3QypS6AxqLjvC22TKboBcppFXu1Q9hB.webp?r=d37"); */
+}
+.text-white li a {
+    color: white!important;;
+}
+.mainElement{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+}
+.navbar.scrolled {
+    background-color: rgb(0, 0, 0) !important;
+    transition: background-color 200ms linear;
+}
+.small-elements{
+    position: absolute;
+    bottom: 2%;
+    left:5%;
+    z-index: 1;
+    height:10%;
+    width:80%;
+}
+.small-element{
+    height:100%;
+    width: 35%;
+    margin-right: 15px;
+}
+.small-image{
+    width: 100%;
+}
+.small-video{
+    width: 100%;
+}
+.small-element:hover {
+    transform: scale(1.5,1.5);
+}
+.carousel-small-elements{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+}
