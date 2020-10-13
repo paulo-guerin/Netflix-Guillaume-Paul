@@ -1,22 +1,28 @@
 
 .logo{
     content: url("../img/Logo_Netflix.png");
-    width: 7%;
+    width: 9%;
 }
 .nav-left{
     padding-left: 4%;
     background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
-    z-index:1;
+    z-index:2;
     position: fixed;
 }
 .nav-left{
     padding-right: 4%;
+}
+.navbar-right img{
+    width: 30px;
+    color: white;
 }
 body{
     max-height: 100%;
     max-width:100%;
     margin:0;
     padding:0;
+    overflow-x: hidden;
+    background: #141414;
  /*   background-image: url("https://occ-0-2249-358.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWlCPl0gdj29-1u5oCsylWA68U9XUL_GT2UTqSBLbF_--tluhoiL-x-STMaXX3QypS6AxqLjvC22TKboBcppFXu1Q9hB.webp?r=d37"); */
 }
 .text-white li a {
@@ -33,13 +39,38 @@ body{
     background-color: rgb(0, 0, 0) !important;
     transition: background-color 200ms linear;
 }
+.info-section{
+    position: absolute;
+    left: 5%;
+    z-index: 1;
+    height: 10%;
+    color: #e5e5e5;
+    top: 20%;
+}
+.title-logo{
+    width: 90%;
+}
+.buttons-section button {
+    margin-left: 10px;
+    width: 30%;
+    height: 55px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.text-info{
+    color: #fff!important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+}
+.buttons-section .btn-secondary{
+    opacity: 0.9;
+}
 .small-elements{
     position: absolute;
-    bottom: 2%;
     left:5%;
     z-index: 1;
     height:10%;
-    width:80%;
+    bottom: 0%;
+    color: #e5e5e5;
 }
 .small-element{
     height:100%;

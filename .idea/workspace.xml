@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41b51677-1732-4b4a-ac19-0aafd0d74ebe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602576320365</updated>
-      <workItem from="1602576322169" duration="17696000" />
+      <workItem from="1602576322169" duration="23993000" />
     </task>
     <task id="LOCAL-00001" summary="add js, img, css folders">
       <created>1602576453599</created>
@@ -44,7 +44,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602576453599</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="main videos + small videos">
+      <created>1602597006317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602597006317</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -52,16 +59,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add js, img, css folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="add js, img, css folders" />
+    <MESSAGE value="main videos + small videos" />
+    <option name="LAST_COMMIT_MESSAGE" value="main videos + small videos" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="401" y="7" key="CommitChangelistDialog2" timestamp="1602576453133">
+    <state x="401" y="0" key="CommitChangelistDialog2" timestamp="1602597005757">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="401" y="7" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602576453133" />
+    <state x="401" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602597005757" />
+    <state x="520" y="279" key="Vcs.Push.Dialog.v2" timestamp="1602597095705">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="520" y="279" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1602597095705" />
     <state x="70" y="63" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602592802792">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="70" y="63" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1602592802792" />
+    <state x="588" y="197" key="run.anything.popup" timestamp="1602597564314">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="588" y="197" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1602597564314" />
   </component>
 </project>
