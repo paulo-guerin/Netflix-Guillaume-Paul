@@ -1,0 +1,80 @@
+
+
+body{
+    max-height: 100%;
+    max-width:100%;
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    height:12%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    z-index:1;
+    position: fixed;
+    top: 0;
+}
+
+.logo{
+    width:20%;
+    height: auto;
+}
+
+.textNavbar{
+    color:white;
+}
+
+.logoAndNav{
+    width: 40%;
+}
+
+#mainVideo{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+}
+
+.video{
+    width:100%;
+}
+
+
+.navbar.scrolled {
+    background-color: rgb(0, 0, 0) !important;
+    transition: background-color 200ms linear;
+}
+
+.classHidden{
+    display:none;
+}
+
+.smallVideoDiv{
+    height:100%;
+    width: 15%;
+    margin-left:10px;
+}
+
+.videoDiv{
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    z-index: 1;
+    height:15%;
+    width:90%;
+    overflow:hidden;
+}
+
+.imgVideo{
+    height:100%;
+    width:100%;
+}
+
+.smallVideo .smallVideoDiv:hover{
+    transform: scale(1.5,1.5);
+}
+
